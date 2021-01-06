@@ -34,22 +34,30 @@ console.log(anyType)
 /////////////////////////Moving toward array
 
 // string array
-let strArray: string[] = ['hello', ' ', 'world']
+// let strArray: string[] = ['hello', ' ', 'world']
+let strArray : Array<string>
+strArray = ['hello', ' ', 'world']
 console.log(strArray)
 
 // number array
 
-let numArray : number[] = [1,2,3,4]
+// let numArray : number[] = [1,2,3,4]
+let numArray : Array<number>
+numArray = [1,2,3,4];
 console.log(numArray)
 
 // boolean array
 
-let booleanArray : boolean[] = [true, false]
+// let booleanArray : boolean[] = [true, false]
+let booleanArray : Array<boolean>
+booleanArray = [true, false];
 console.log(booleanArray)
 
 // any array
 
-let anyArray: any[] = [12, '1243', 'hello', true]
+// let anyArray: any[] = [12, '1243', 'hello', true]
+let anyArray : Array<any>
+anyArray = [12, '1243', 'hello', true];
 console.log(anyArray)
 
 
