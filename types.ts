@@ -61,4 +61,12 @@ anyArray = [12, '1243', 'hello', true];
 console.log(anyArray)
 
 
-/////////////////////////////
+///////////////////////////// Tuples
+
+let stringArrayTuples : [string, number]
+stringArrayTuples = ['hello', 2] // correct
+// stringArrayTuples = ['hello', '2']// error
+// stringArrayTuples = [2, 'hello'] // error
+// stringArrayTuples = ['hello', 2,3,4] // error
+console.log(stringArrayTuples)
+
