@@ -13,14 +13,24 @@ console.log(getSum(3,5))
     
 
 // type is any
-function mySum(num1 :any, num2:any ):number {
-    if(typeof num1 === 'string'){
-        num1 = parseInt(num1)
-    }
-    if(typeof num2 === 'string'){
-        num2 = parseInt(num2)
-    }
-    return num1+num2
-    }
-    console.log(mySum(2, '78'))
+// function mySum(num1 :any, num2:any ):number {
+//     if(typeof num1 === 'string'){
+//         num1 = parseInt(num1)
+//     }
+//     if(typeof num2 === 'string'){
+//         num2 = parseInt(num2)
+//     }
+//     return num1+num2
+//     }
+//     console.log(mySum(2, '78'))
     
+// make the type optional by putting ? at its end
+
+function mySum(firstName :any, lastName?:any ):string {
+    if(lastName === undefined){
+        return firstName
+    }
+ 
+    return firstName+lastName
+    }
+    console.log(mySum('Usman' ))
