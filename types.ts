@@ -70,3 +70,11 @@ stringArrayTuples = ['hello', 2] // correct
 // stringArrayTuples = ['hello', 2,3,4] // error
 console.log(stringArrayTuples)
 
+
+// void, null, undefined types
+let myVoidNull : null = null;
+let myVoidUndefined: undefined = undefined
+let myNull: null = null;
+let myUndefined: undefined = undefined
+
+console.log(myVoidNull, myVoidUndefined, myNull, myUndefined)
