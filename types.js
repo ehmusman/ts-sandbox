@@ -21,3 +21,17 @@ console.log(concateString);
 // any datatype
 var anyType = 'hello'; // anytype can be written here
 console.log(anyType);
+/////////////////////////Moving toward array
+// string array
+var strArray = ['hello', ' ', 'world'];
+console.log(strArray);
+// number array
+var numArray = [1, 2, 3, 4];
+console.log(numArray);
+// boolean array
+var booleanArray = [true, false];
+console.log(booleanArray);
+// any array
+var anyArray = [12, '1243', 'hello', true];
+console.log(anyArray);
+/////////////////////////////

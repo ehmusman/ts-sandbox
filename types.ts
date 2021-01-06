@@ -30,3 +30,27 @@ console.log(concateString)
 
 let anyType: any = 'hello'; // anytype can be written here
 console.log(anyType)
+
+/////////////////////////Moving toward array
+
+// string array
+let strArray: string[] = ['hello', ' ', 'world']
+console.log(strArray)
+
+// number array
+
+let numArray : number[] = [1,2,3,4]
+console.log(numArray)
+
+// boolean array
+
+let booleanArray : boolean[] = [true, false]
+console.log(booleanArray)
+
+// any array
+
+let anyArray: any[] = [12, '1243', 'hello', true]
+console.log(anyArray)
+
+
+/////////////////////////////
